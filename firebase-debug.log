@@ -1,45 +1,53 @@
-[debug] [2025-04-22T07:49:20.317Z] ----------------------------------------------------------------------
-[debug] [2025-04-22T07:49:20.319Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\Desktop\CEDT\University Work\SE\Firebases\225-github-actions-demo\node_modules\firebase-tools\lib\bin\firebase.js init hosting
-[debug] [2025-04-22T07:49:20.319Z] CLI Version:   14.2.0
-[debug] [2025-04-22T07:49:20.319Z] Platform:      win32
-[debug] [2025-04-22T07:49:20.319Z] Node Version:  v22.10.0
-[debug] [2025-04-22T07:49:20.320Z] Time:          Tue Apr 22 2025 14:49:20 GMT+0700 (Indochina Time)
-[debug] [2025-04-22T07:49:20.320Z] ----------------------------------------------------------------------
+[debug] [2025-04-22T07:59:18.254Z] ----------------------------------------------------------------------
+[debug] [2025-04-22T07:59:18.257Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\Desktop\CEDT\University Work\SE\Firebases\225-github-actions-demo\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-04-22T07:59:18.257Z] CLI Version:   14.2.0
+[debug] [2025-04-22T07:59:18.257Z] Platform:      win32
+[debug] [2025-04-22T07:59:18.258Z] Node Version:  v22.10.0
+[debug] [2025-04-22T07:59:18.258Z] Time:          Tue Apr 22 2025 14:59:18 GMT+0700 (Indochina Time)
+[debug] [2025-04-22T07:59:18.258Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2025-04-22T07:49:20.471Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2025-04-22T07:49:20.473Z] > authorizing via signed-in user (phroggothesecond@gmail.com)
+[debug] [2025-04-22T07:59:18.453Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-22T07:59:18.454Z] > authorizing via signed-in user (phroggothesecond@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2025-04-22T07:59:18.467Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-22T07:59:18.467Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-22T07:59:18.467Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-04-22T07:59:18.474Z] [hub] writing locator at C:\Users\User\AppData\Local\Temp\hub-somethingsomething-7ce0d.json
+[debug] [2025-04-22T07:59:18.489Z] Checked if tokens are valid: true, expires at: 1745311101645
+[debug] [2025-04-22T07:59:18.489Z] Checked if tokens are valid: true, expires at: 1745311101645
+[debug] [2025-04-22T07:59:18.490Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/somethingsomething-7ce0d/sites 
+[debug] [2025-04-22T07:59:19.718Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/somethingsomething-7ce0d/sites 200
+[debug] [2025-04-22T07:59:19.718Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/somethingsomething-7ce0d/sites {"sites":[{"name":"projects/somethingsomething-7ce0d/sites/somethingsomething-7ce0d","defaultUrl":"https://somethingsomething-7ce0d.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-04-22T07:59:19.719Z] Checked if tokens are valid: true, expires at: 1745311101645
+[debug] [2025-04-22T07:59:19.719Z] Checked if tokens are valid: true, expires at: 1745311101645
+[debug] [2025-04-22T07:59:19.719Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/somethingsomething-7ce0d/webApps/-/config [none]
+[debug] [2025-04-22T07:59:20.358Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/somethingsomething-7ce0d/webApps/-/config 200
+[debug] [2025-04-22T07:59:20.358Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/somethingsomething-7ce0d/webApps/-/config {"projectId":"somethingsomething-7ce0d","storageBucket":"somethingsomething-7ce0d.firebasestorage.app","apiKey":"AIzaSyAVVk-n0b6YDFywWx6ivMpnR-ywBk00QJo","authDomain":"somethingsomething-7ce0d.firebaseapp.com","messagingSenderId":"1036757386056"}
+[debug] [2025-04-22T07:59:20.361Z] Checked if tokens are valid: true, expires at: 1745311101645
+[debug] [2025-04-22T07:59:20.361Z] Checked if tokens are valid: true, expires at: 1745311101645
+[debug] [2025-04-22T07:59:20.361Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/somethingsomething-7ce0d [none]
+[debug] [2025-04-22T07:59:20.853Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/somethingsomething-7ce0d 200
+[debug] [2025-04-22T07:59:20.853Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/somethingsomething-7ce0d {"projectId":"somethingsomething-7ce0d","projectNumber":"1036757386056","displayName":"SomethingSomething","name":"projects/somethingsomething-7ce0d","resources":{"hostingSite":"somethingsomething-7ce0d"},"state":"ACTIVE","etag":"1_6dd7a08d-4af4-4016-9391-5544c47e7ddc"}
+[info] i  hosting[somethingsomething-7ce0d]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[somethingsomething-7ce0d]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2025-04-22T07:59:20.876Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
 [info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
 
-You're about to initialize a Firebase project in this directory:
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
 
-  C:\Users\User\Desktop\CEDT\University Work\SE\Firebases\225-github-actions-demo
-
-Before we get started, keep in mind:
-
-  * You are initializing within an existing Firebase project directory
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[debug] [2025-04-22T07:49:22.515Z] Using project from CLI flag: fireship-lessons
-[debug] [2025-04-22T07:49:22.515Z] Checked if tokens are valid: true, expires at: 1745311101645
-[debug] [2025-04-22T07:49:22.515Z] Checked if tokens are valid: true, expires at: 1745311101645
-[debug] [2025-04-22T07:49:22.516Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons [none]
-[debug] [2025-04-22T07:49:23.295Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons 403
-[debug] [2025-04-22T07:49:23.295Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2025-04-22T07:49:23.296Z] Request to https://firebase.googleapis.com/v1beta1/projects/fireship-lessons had HTTP Error: 403, The caller does not have permission
-[debug] [2025-04-22T07:49:23.636Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/fireship-lessons had HTTP Error: 403, The caller does not have permission
-    at responseToError (C:\Users\User\Desktop\CEDT\University Work\SE\Firebases\225-github-actions-demo\node_modules\firebase-tools\lib\responseToError.js:52:12)
-    at RetryOperation._fn (C:\Users\User\Desktop\CEDT\University Work\SE\Firebases\225-github-actions-demo\node_modules\firebase-tools\lib\apiv2.js:312:77)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-[error] 
-[error] Error: Failed to get Firebase project fireship-lessons. Please make sure the project exists and your account has permission to access it.
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [22/Apr/2025:07:59:46 +0000] "GET / HTTP/1.1" 200 385 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [22/Apr/2025:07:59:46 +0000] \"GET / HTTP/1.1\" 200 385 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [22/Apr/2025:07:59:46 +0000] "GET /bundle.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [22/Apr/2025:07:59:46 +0000] \"GET /bundle.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [22/Apr/2025:07:59:46 +0000] "GET /pug.jpg HTTP/1.1" 200 770433 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [22/Apr/2025:07:59:46 +0000] \"GET /pug.jpg HTTP/1.1\" 200 770433 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [22/Apr/2025:07:59:46 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [22/Apr/2025:07:59:46 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0\""}}
