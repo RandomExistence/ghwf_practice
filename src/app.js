@@ -28,4 +28,6 @@ try {
 
 
 exports.dayOfTheWeek = dayOfTheWeek;
-expoers.monthOfYear = monthOfYear;
+exports.monthOfYear = monthOfYear;
+
+// useless comment
